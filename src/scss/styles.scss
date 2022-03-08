@@ -1,0 +1,48 @@
+//
+// Styles
+//
+
+// Import variables
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Global CSS
+@import "./global.scss";
+
+// Components
+@import "./components/buttons.scss";
+@import "./components/navbar.scss";
+
+// Sections
+@import "./sections/masthead.scss";
+@import "./sections/portfolio.scss";
+@import "./sections/timeline.scss";
+@import "./sections/team.scss";
+@import "./sections/contact.scss";
+@import "./sections/footer.scss";
+
+.btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+    &:hover {
+        color: black;
+        background-color: white;
+        border-color: white;
+    }
+}
+.video {
+    padding-bottom: 2em;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.splash-padding {
+    padding: 1.5em;
+}
+.splash-border {
+    border-bottom: solid black 2px;
+}
