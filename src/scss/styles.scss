@@ -46,3 +46,8 @@
 .splash-border {
     border-bottom: solid black 2px;
 }
+html, body {
+    height: 100% !important;
+    width: 100% !important; // for full width
+    margin: 0 !important;// stops white margin around edge of page
+}
